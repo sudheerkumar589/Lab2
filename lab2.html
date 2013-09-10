@@ -1,0 +1,17 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<body>
+    <div id="control">
+        <!Entering the starting address>
+        <input type="text" placeholder="Starting Location" name="start" id="start" value=""/>
+        <!Entering the destination address>
+        <input type="text" placeholder="Ending Location" name="end" id="end" value=""/>     
+        <select id="mode">
+      <option value="DRIVING">DRIVING</option>
+      <option value="WALKING">WALKING</option>
+      <option value="BICYCLING">BICYCLING</option>
+      <option value="TRANSIT">TRANSIT</option>
+    </select>
+     <input type="submit" id="submit" value="SUBMIT"/>        
+    </div>
+    <div id="map-canvas" style="width:550px;height:550px"></div>
+ 
